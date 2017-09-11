@@ -1,12 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IoC
 {
-    class IContainer
+    public interface IContainer
     {
+        //TODO: implement lifecycles
+
+        void Bind<A, B>();
+        object ResolveObject(Type typeToResolve);
     }
 }
