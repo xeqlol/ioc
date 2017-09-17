@@ -43,6 +43,7 @@
     <Compile Include="Container.cs" />
     <Compile Include="Exceptions.cs" />
     <Compile Include="IContainer.cs" />
+    <Compile Include="IRegisteredObject.cs" />
     <Compile Include="RegisteredObject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

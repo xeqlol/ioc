@@ -2,7 +2,7 @@
 
 namespace IoC
 {
-    class RegisteredObject
+    class RegisteredObject : IRegisteredObject
     {
         public Type TypeToResolve { get; set; }
         public Type ConcreteType { get; set; }
