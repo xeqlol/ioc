@@ -6,6 +6,7 @@ namespace IoC
 {
     public class IoC : IContainer
     {
+        // TODO: add tests
         private readonly List<RegisteredObject> registeredObjects = new List<RegisteredObject>();
 
         public void Bind<A, B>()
